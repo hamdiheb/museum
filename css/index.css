@@ -7,6 +7,14 @@
   width: 50px;
 }
 
+.nav-list {
+  margin-top: 35px;
+}
+
+.nav-list-menu {
+  list-style: none;
+}
+
 .header-title {
   font-family: 'Lato', sans-serif;
   color: #ec5242;
@@ -63,7 +71,7 @@
 }
 
 .object-titlen,
-.speaker-short-info{
+.speaker-short-info {
   color: #ec5242;
 }
 
@@ -104,4 +112,13 @@
 .profile {
   margin-top: -80px;
   margin-left: 10px;
+}
+
+.facebook {
+  width: 40px;
+  margin-left: 10px;
+}
+
+.facebook:hover {
+  color: #ec5242;
 }
