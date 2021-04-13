@@ -48,6 +48,10 @@
   font-size: 14px;
 }
 
+.main-object {
+    background: linear-gradient(0deg, rgba(255, 253, 253, 0.493) 10%, rgba(255, 253, 253, 0.493) 10%);
+}
+
 .main-title {
   font-family: 'Lato', sans-serif;
 }
@@ -57,7 +61,17 @@
   border-bottom: 3px solid #EC5242;
 }
 
+.object-title {
+ color: #EC5242;
+}
+
 .object-title,
 .object-info {
+  font-family: 'Lato', sans-serif;
+}
+
+.button {
+  background-color: #EC5242;
+  border-radius: 1px;
   font-family: 'Lato', sans-serif;
 }
