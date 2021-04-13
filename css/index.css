@@ -62,12 +62,15 @@
   border-bottom: 3px solid #ec5242;
 }
 
-.object-title {
+.object-titlen,
+.speaker-short-info{
   color: #ec5242;
 }
 
 .object-title,
-.object-info {
+.object-info,
+.speaker-title,
+.speaker-info {
   font-family: 'Lato', sans-serif;
 }
 
@@ -75,4 +78,30 @@
   background-color: #ec5242;
   border-radius: 1px;
   font-family: 'Lato', sans-serif;
+}
+
+.speaker-data {
+  width: 70%;
+}
+
+.speaker-info {
+  margin-top: -10px;
+}
+
+.speaker-short-info,
+.speaker-info {
+  font-size: 10px;
+}
+
+.speaker-pic {
+  width: 30%;
+}
+
+.b-w-pic {
+  width: 100px;
+}
+
+.profile {
+  margin-top: -80px;
+  margin-left: 10px;
 }
