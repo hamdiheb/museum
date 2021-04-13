@@ -2,13 +2,14 @@
   font-family: cocogose;
   src: url(fonts/Cocogoose.ttf);
 }
+
 .nav-menu {
   width: 50px;
 }
 
 .header-title {
   font-family: 'Lato', sans-serif;
-  color: #EC5242;
+  color: #ec5242;
   text-decoration: none;
 }
 
@@ -18,9 +19,9 @@
 }
 
 .header-main {
-  font-family: cocogose;
+  font-family: 'cocogose';
   font-size: 30px;
-  color: #EC5242;
+  color: #ec5242;
   text-decoration: none;
 }
 
@@ -39,7 +40,7 @@
 }
 
 .header-date {
-  font-family: cocogose;
+  font-family: 'cocogose';
   font-size: 23px;
 }
 
@@ -49,7 +50,7 @@
 }
 
 .main-object {
-    background: linear-gradient(0deg, rgba(255, 253, 253, 0.493) 10%, rgba(255, 253, 253, 0.493) 10%);
+  background: linear-gradient(0deg, rgba(255, 253, 253, 0.493) 10%, rgba(255, 253, 253, 0.493) 10%);
 }
 
 .main-title {
@@ -58,11 +59,11 @@
 
 .b-bottom {
   width: 180px;
-  border-bottom: 3px solid #EC5242;
+  border-bottom: 3px solid #ec5242;
 }
 
 .object-title {
- color: #EC5242;
+  color: #ec5242;
 }
 
 .object-title,
@@ -71,7 +72,7 @@
 }
 
 .button {
-  background-color: #EC5242;
+  background-color: #ec5242;
   border-radius: 1px;
   font-family: 'Lato', sans-serif;
 }
