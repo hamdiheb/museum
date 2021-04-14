@@ -1,0 +1,49 @@
+@font-face {
+    font-family: cocogose;
+    src: url(fonts/Cocogoose.ttf);
+}
+
+.home-icon {
+  width: 20px;
+  height: 30px;
+  color: #343a40;
+}
+
+.home-icon:hover {
+  color: tomato;
+}
+
+.direction-place {
+  color: #343a40;
+  font-family: 'Lato', sans-serif;
+}
+
+.direction-place:hover {
+  color: #ec5242;
+}
+
+.about-header {
+  width: 550px;
+}
+
+.about-header a {
+  color: #ec5242;
+  text-decoration: none;
+  font-family: 'cocogose';
+  font-size: 30px;
+}
+
+.about-header a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+.about-info {
+  border: 3px solid white;
+  font-family: 'Lato', sans-serif;
+}
+
+.about-email {
+  width: 550px;
+  font-family: 'Lato', sans-serif;
+}

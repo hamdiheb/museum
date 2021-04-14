@@ -15,6 +15,20 @@
   list-style: none;
 }
 
+.list-menu-link {
+  color: #343a40;
+  font-family: 'Lato', sans-serif;
+}
+
+.list-menu-link:hover {
+  color: #ec5242;
+}
+
+#logo-nav-list {
+  border: 2px solid #ec5242;
+  margin-top: -10px;
+}
+
 .header-title {
   font-family: 'Lato', sans-serif;
   color: #ec5242;
