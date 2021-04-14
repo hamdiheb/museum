@@ -23,14 +23,14 @@
 }
 
 .about-header {
-  width: 550px;
+  width: 450px;
 }
 
 .about-header a {
   color: #ec5242;
   text-decoration: none;
   font-family: 'cocogose';
-  font-size: 30px;
+  font-size: 40px;
 }
 
 .about-header a:hover {
