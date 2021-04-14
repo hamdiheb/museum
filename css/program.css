@@ -9,7 +9,7 @@
 }
 
 .schedule-button-active {
- background-color: grey;
+  background-color: grey;
 }
 
 .schedule-button:hover {
@@ -35,7 +35,7 @@
 }
 
 .sharing-info {
-  font-family: 'Lato',sans-serif;
+  font-family: 'Lato', sans-serif;
   color: black;
 }
 
@@ -43,7 +43,7 @@
   width: 25px;
   height: 25px;
   margin-top: -5px;
-  background-color: #2785B4;
+  background-color: #2785b4;
   color: white;
   padding: 2px;
   border-radius: 50%;
@@ -64,7 +64,7 @@
 }
 
 #love {
-  background-color: #77AEC6;
+  background-color: #77aec6;
   padding: 5px;
 }
 
@@ -74,7 +74,7 @@
 }
 
 .plan-item {
-  border: 1px solid #77AEC6;
+  border: 1px solid #77aec6;
   background-color: #a0aeb4;
   border-radius: 2px;
 }
@@ -86,9 +86,10 @@
 .plan-icon {
   margin-top: 1px;
 }
+
 .plan-bio,
 .plan-info {
-  font-family: 'Lato' ,sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 
 .plan-bio-main,
