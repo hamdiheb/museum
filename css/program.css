@@ -54,16 +54,16 @@
   font-family: 'Lato', sans-serif;
 }
 
-#table {
+.table {
   background-color: #ec5242;
   padding: 4px;
 }
 
-#rainbow {
+.rainbow {
   background-color: #cf8ec5;
 }
 
-#love {
+.love {
   background-color: #77aec6;
   padding: 5px;
 }
