@@ -47,3 +47,43 @@
   width: 550px;
   font-family: 'Lato', sans-serif;
 }
+
+.logo {
+  width: 420px;
+}
+
+.past-info {
+  font-family: 'Lato', sans-serif;
+}
+
+.bottom-profile {
+  background-image: linear-gradient(217deg, rgb(228, 13, 13) 0%, rgb(0, 0, 0, 0) 100%), url(../img/table/350px-PicassoGuernica.jpg);
+}
+
+.bottom-title {
+  margin-top: 50px;
+  font-family: 'Lato', sans-serif;
+}
+
+.bottom-info {
+  font-family: 'Lato', sans-serif;
+}
+
+.fixed {
+  margin-right: 5px;
+}
+
+.fixer {
+  margin-right: -5px;
+}
+
+.footer-title {
+  width: 130px;
+  border: 1px solid #ec5242;
+  font-family: 'Lato', sans-serif;
+}
+
+.footer-info {
+  width: 680px;
+  font-family: 'Lato', sans-serif;
+}
