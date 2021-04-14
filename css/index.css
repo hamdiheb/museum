@@ -80,8 +80,8 @@
 }
 
 .b-bottom {
-  width: 180px;
-  border-bottom: 3px solid #ec5242;
+  width: 40px;
+  border-bottom: 2px solid #ec5242;
 }
 
 .object-titlen,
@@ -99,6 +99,10 @@
 .button {
   background-color: #ec5242;
   border-radius: 1px;
+  font-family: 'Lato', sans-serif;
+}
+
+.button-link {
   font-family: 'Lato', sans-serif;
 }
 
