@@ -41,7 +41,7 @@
 }
 
 .header-main {
-  font-family: 'cocogose';
+  font-family: 'cocogose', sans-serif;
   font-size: 40px;
   color: #ec5242;
   text-decoration: none;
@@ -62,7 +62,7 @@
 }
 
 .header-date {
-  font-family: 'cocogose';
+  font-family: 'cocogose', sans-serif;
   font-size: 23px;
 }
 

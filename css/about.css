@@ -29,7 +29,7 @@
 .about-header a {
   color: #ec5242;
   text-decoration: none;
-  font-family: 'cocogose';
+  font-family: 'cocogose', sans-serif;
   font-size: 40px;
 }
 
@@ -57,7 +57,7 @@
 }
 
 .bottom-profile {
-  background-image: linear-gradient(217deg, rgb(228, 13, 13) 0%, rgb(0, 0, 0, 0) 100%), url(../img/table/350px-PicassoGuernica.jpg);
+  background-image: linear-gradient(217deg, rgb(228, 13, 13) 1%, rgb(0, 0, 0, 0) 90%), url(../img/table/350px-PicassoGuernica.jpg);
 }
 
 .bottom-title {
