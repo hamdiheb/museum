@@ -3,30 +3,60 @@
   src: url(fonts/Cocogoose.ttf);
 }
 
-.nav-menu {
-  width: 50px;
+.social-media-list {
+  display: flex;
+  list-style: none;
+  justify-content: flex-end;
 }
 
-.nav-list {
-  margin-top: 35px;
+.social-media-link {
+  color: aliceblue;
+  width: 16px;
+  height: 21px;
 }
 
-.nav-list-menu {
+#facebook:hover {
+  color: rgb(5, 109, 179);
+}
+
+#twitter:hover {
+  color: rgb(36, 143, 214);
+}
+
+#youtube:hover {
+  color: rgb(199, 13, 28);
+}
+
+.navbar {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: -15px;
+}
+
+.navbar-logo {
+  width: 60px;
+}
+
+.navbar-items {
   list-style: none;
 }
 
-.list-menu-link {
-  color: #343a40;
+.navbar-links {
+  margin-left: 20px;
+  color: #272a31;
   font-family: 'Lato', sans-serif;
+  font-weight: bold;
 }
 
-.list-menu-link:hover {
-  color: #ec5242;
+.navbar-links:hover {
+  text-decoration: none;
+  color: tomato;
 }
 
-#logo-nav-list {
-  border: 2px solid #ec5242;
-  margin-top: -10px;
+.first-section {
+  background-image: url(../img/bg.jpeg);
+  background-position: center;
+  background-size: cover;
 }
 
 .header-title {
@@ -42,7 +72,6 @@
 
 .header-main {
   font-family: 'cocogose', sans-serif;
-  font-size: 40px;
   color: #ec5242;
   text-decoration: none;
 }
@@ -63,12 +92,25 @@
 
 .header-date {
   font-family: 'cocogose', sans-serif;
-  font-size: 23px;
 }
 
 .header-place {
   font-family: 'Lato', sans-serif;
   font-size: 14px;
+}
+
+.program {
+  display: flex;
+  flex-direction:column;
+  align-content: space-between;
+}
+
+.icon {
+  width: 40%;
+}
+
+.icon:hover {
+  color: #d3d3d3;
 }
 
 .main-object {
@@ -84,7 +126,8 @@
   border-bottom: 2px solid #ec5242;
 }
 
-.object-titlen,
+.object-title,
+.nav-link,
 .speaker-short-info {
   color: #ec5242;
 }
@@ -132,11 +175,49 @@
   margin-left: 10px;
 }
 
-.facebook {
-  width: 40px;
-  margin-left: 10px;
+.more {
+  width: 100%;
 }
 
-.facebook:hover {
+.more a {
+  font-family: 'Lato', sans-serif;
+  color: #272a31;
+  font-weight: bold;
+}
+
+.partner {
+  color: #d3d3d3;
+}
+
+.partner:hover {
   color: #ec5242;
+}
+
+.footer-inf {
+  font-family: 'Lato', sans-serif;
+  width: 80%;
+}
+
+@media screen and (min-width: 760px){
+  .program {
+    display: flex;
+    flex-direction:row;
+  }
+
+  .main-object {
+    height: 100%;
+  }
+
+  .icon {
+    width: 20%;
+  }
+
+  .edit {
+    width: 25%;
+  }
+
+  .footer-inf {
+    font-family: 'Lato', sans-serif;
+    width: 30%;
+  }
 }

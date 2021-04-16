@@ -10,79 +10,142 @@
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
     </head>
-    <body class="bg-light">
-        <!------------------Nav-------------------->
-        <nav class="container">
-            <div class="row">
-                <div class="col-12 d-flex d-md-none">
-                    <a href="index.html" class="text-decoration-none text-dark">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-list nav-menu mt-4" viewBox="0 0 16 16">
-                            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+    <body class="">
+        <header>
+            <nav class="social-media-menu bg-dark">
+                <ul class="social-media-list pr-3 pb-1">
+                    <li class="social-media-link">
+                        <a href="#" class="social-media-link ">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-facebook" id="facebook" viewBox="0 0 16 16">
+                            <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+                        </svg>
+                        </a>
+                    </li>
+                    <li class="social-media-link ml-2">
+                        <a href="#" class="social-media-link ">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-twitter" id="twitter" viewBox="0 0 16 16">
+                            <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+                        </svg>
+                        </a>
+                    </li>
+                    <li class="social-media-link ml-2">
+                        <a href="#" class="social-media-link ">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-youtube" id="youtube" viewBox="0 0 16 16">
+                            <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z"/>
                           </svg>
-                    </a>
-                </div>
-                <div class="col-md-4 d-none d-md-flex">
-                    <a href="index.html" class="text-decoration-none text-dark">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-list nav-menu mt-4" viewBox="0 0 16 16">
-                            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
-                          </svg>
-                    </a>
-                </div>
-                <div class="col-md-8 d-none d-md-flex nav-list justify-content-lg-end">
-                    <ul class="d-flex nav-list-menu">
-                        <li class=""><a href="about.html" class="list-menu-link">About</a></li>
-                        <li class="ml-4"><a href="program.html" class="list-menu-link">Program</a></li>
-                        <li class="ml-4"><a href="#" class="list-menu-link">Join</a></li>
-                        <li class="ml-4"><a href="#" class="list-menu-link">Sponsor</a></li>
-                        <li class="ml-4"><a href="#" class="list-menu-link">News</a></li>
-                        <li class="ml-4 p-2" id="logo-nav-list"><a href="#" class="list-menu-link">CC | Campaign</a></li>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <nav class="navbar d-none d-lg-flex bg-white">
+                <a href="index.html"><img class="navbar-logo ml-5" src="img/img/logo.png" alt="logo"/></a>
+                <ul class="d-none d-md-flex navbar-items pr-5">
+                    <li>
+                        <a href="index.html" class="navbar-links">
+                            Home
+                        </a>
+                    </li>
+                    <li>
+                      <a href="about.html" class="navbar-links">
+                          About
+                      </a>
+                    </li>
+                    <li>
+                        <a href="program.html" class="navbar-links">
+                            Program
+                        </a>
+                    </li>
+                    <li>
+                        <a href="tickets.html" class="navbar-links">
+                            Tickets
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="navbar-links">
+                            Contact
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <nav class="d-lg-none ml-2 pb-2">
+              <button class="navbar-toggler toggler-example" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1"
+              aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"><span class="dark"><i
+                  class="fas fa-bars fa-1x"></i></span></button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+      
+                    <!-- Links -->
+                    <ul class="navbar-nav mr-auto">
+                      <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="program.html">Program</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="tickets.html">Tickets</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                      </li>
                     </ul>
-                </div>
-            </div>
-        </nav>
-        <!-------------------Main------------------>
-        <header class="container-fluid row pt-5">
-            <article class="col-12 row justify-content-end direction">
-                <a href="index.html"><svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-house-door-fill home-icon" viewBox="0 0 16 16">
-                    <path d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5z"/>
-                  </svg>
-                </a>
-                <p class="pt-1 pl-2">><a href="about.html" class="direction-place pl-2"> About</a></p>
-            </article>
-            <article class="col-12 d-flex justify-content-center pt-5">
-                <h4 class="about-header"><a href="#">Your museum is our museum tour 2021</a></h4>
-            </article>
-            <article class="col-12 pt-5 ">
-                <p class="text-md-center about-info p-lg-4 ml-md-5 mr-md-5">
-                    The Global Summit brings togather the community of experts,academics, and activists who comprise the Creative Commons affiliate network in a different country every two years.
-                    This year, we hope to expand our invitation list including organizations and individuals who want to work with us on shared projects that advance the cause of the Commons, free culture and open knowledge.
-                    So if you're active and engaged in the worlds of open content and knowlegde - free software advocates, Wikipedians, Open Knowlegde, galleries, libraries, museums, archives, governments and foundations, laywers, and activists - we hope you'ill consider joining us this to build a stronger, more vibrant commons together.
-                </p>
-            </article>
-            <article class="col-12 pt-5 about-contact d-flex justify-content-center">
-                <p class="text-center about-email">
-                    Please contact us per Email for any further about CC Global Summit 2015!
-                    <a class="text-dark font-weight-bold" href="#">ccsummit2015@cckorea.org ></a>
-                </p>
-            </article>
-
+                    <!-- Links -->
+                
+                  </div>
+            </nav>
         </header>
-        <main class="container-fluid">
+        <main class="container-fluid"> 
+            <section class="row first-section pt-5 pb-5">
+              <article class="col-12">
+                  <h1 class="text-center"><a href="#" class="header-main">PORT | Museum lunch second edition 2021</a></h1>
+              </article>
+              <article class="col-12 col-lg-12 pt-4 align">
+                  <div class="info col-lg-8 bg-light p-2">
+                      <p class="header-info text-center">
+                        Back to 1995 the founder of port museum start collecting rarest tables from all around the world,
+                        his passion and love to this art never stop here until he opens a museum for public to share with
+                        them his passion and show the world this rare art that start disappearing. Port museum want to take 
+                        those people who lost their sols inside painting and art to educate them the importance of these tables and teach them about the ancient history.Inside port museum you only will feel like a lost scene in history documentary .
+                      </p>
+                  </div>
+              </article>
+              <article class="col-12 pt-3 text-center">
+                  <h5 class="header-date text-muted">Please contact us per Email for any further questions about Port | Museum.</h5>
+                  <h6 class="header-place text-muted font-weight-bold"><a href="#" class="text-dark font-weight-bold">contact@portmuseum.info</a></h6>
+              </article>
+          </section> 
         <section class="row">
-        <article class="col-12 pt-5 d-flex justify-content-center">
-            <a href="#"><img src="img/logo.png" alt="logo" class="logo border" /></a>
+        <article class="col-12 pt-5 ustify-content-center">
+            <h5 class="text-center font-weight-bold text-dark main-title">Port | Museum</h5>
+            <hr class="b-bottom">
+            <p class="text-center past-info">
+                Our logo was designer by one of our amateur artist.
+            </p>
+            <a href="#" class="align"><img src="img/img/logo.png" alt="logo" class="logo" /></a>
         </article>
         </section>
         <hr class="mt-5">
-        <section class="row">
-            <article class="col-12 pt-5">
-                    <h5 class="text-center font-weight-bold text-dark main-title">See the past  CC Global Summits</h5>
-                    <hr class="b-bottom">
-                    <p class="text-center past-info">
-                        Take a look at the last two CC Global Summits which took place in Buenos Aires and in Warsaw
-                    </p>
-            </article>
+        <h5 class="text-center font-weight-bold text-dark main-title">See our last tables</h5>
+        <hr class="b-bottom">
+        <section class="d-flex justify-content-center">
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                      <img src="img/table/350px-PicassoGuernica.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/table/350px-PicassoGuernica.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/table/350px-PicassoGuernica.jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+              </div>
         </section>
+        <h5 class="text-center font-weight-bold text-dark main-title mt-5">See the past  Port Museum Activity</h5>
+        <hr class="b-bottom">
         <section class="container pb-5">
             <div class="row">
                 <article class="col-12 col-lg-6 bottom-profile pb-4 fixed">
@@ -93,21 +156,24 @@
                     <h3 class="text-white bottom-title text-center font-weight-bold">1937</h3>
                     <h5 class="text-center text-white bottom-info">Guernica By Pablo Picaso</h5>
                 </article>
+
             </div>
         </section>
         </main>
-        <footer class="container-fluid mt-4 bg-dark">
-            <section class="row">
-                <article class="col-12 d-flex justify-content-center mt-5">
-                    <div class="footer-title p-2">
-                        <a class="text-white">CC | Campaign</a>
-                    </div>
-                    <div class="footer-info pl-4 mt-2">
-                        <p class="text-white">Museum for all who lost ther sol in art here we bring you in another journey hope you all enjoy</p>
-                    </div>
-                </article>
-            </section>
-        </footer>
+        <hr>
+        <footer class="container-fluid mt-4 pb-4">
+            <article class="d-flex  justify-content-center mt-5 footer">
+                <div class="pt-2 p-md-0">
+                    <a href="index.html"><img class="navbar-logo ml-5" src="img/img/logo.png" alt="logo"/></a>
+                </div>
+                <div class="footer-inf pl-2 mt-1">
+                    <p class="text-dark">Port | Museum - copyright © 2018 all rights reserved
+                        Special Thanks to this website designer <a href="https://www.behance.net/adagio07">Cindy Shin.</a>
+                    </p>
+                    
+                </div>
+            </article>
+    </footer>
         <!-----------------JavaScript-------------->
     <script src="https://kit.fontawesome.com/efd248be36.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

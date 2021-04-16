@@ -7,124 +7,185 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
         <link href="css/index.css" rel="stylesheet" />
         <link href="css/about.css" rel="stylesheet" />
+        <link href="css/all.css" rel="stylesheet" />
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
     </head>
     <body class="bg-light">
     <!------------NAV------------->
-        <nav class="container">
-            <div class="row">
-                <div class="col-12 d-flex d-md-none">
-                    <a href="index.html" class="text-decoration-none text-dark">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-list nav-menu mt-4" viewBox="0 0 16 16">
-                            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
-                          </svg>
-                    </a>
-                </div>
-                <div class="col-md-4 d-none d-md-flex">
-                    <a href="index.html" class="text-decoration-none text-dark">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-list nav-menu mt-4" viewBox="0 0 16 16">
-                            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
-                          </svg>
-                    </a>
-                </div>
-                <div class="col-md-8 d-none d-md-flex nav-list justify-content-lg-end">
-                    <ul class="d-flex nav-list-menu">
-                        <li class=""><a href="about.html" class="list-menu-link">About</a></li>
-                        <li class="ml-4"><a href="program.html" class="list-menu-link">Program</a></li>
-                        <li class="ml-4"><a href="#" class="list-menu-link">Join</a></li>
-                        <li class="ml-4"><a href="#" class="list-menu-link">Sponsor</a></li>
-                        <li class="ml-4"><a href="#" class="list-menu-link">News</a></li>
-                        <li class="ml-4 p-2" id="logo-nav-list"><a href="#" class="list-menu-link">CC | Campaign</a></li>
-                    </ul>
-                </div>
+    <header>
+      <nav class="social-media-menu bg-dark">
+          <ul class="social-media-list pr-3 pb-1">
+              <li class="social-media-link">
+                  <a href="#" class="social-media-link ">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-facebook" id="facebook" viewBox="0 0 16 16">
+                      <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+                  </svg>
+                  </a>
+              </li>
+              <li class="social-media-link ml-2">
+                  <a href="#" class="social-media-link ">
+                      <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-twitter" id="twitter" viewBox="0 0 16 16">
+                      <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+                  </svg>
+                  </a>
+              </li>
+              <li class="social-media-link ml-2">
+                  <a href="#" class="social-media-link ">
+                      <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-youtube" id="youtube" viewBox="0 0 16 16">
+                      <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z"/>
+                    </svg>
+                  </a>
+              </li>
+          </ul>
+      </nav>
+      <nav class="navbar d-none d-lg-flex bg-white">
+          <a href="index.html"><img class="navbar-logo ml-5" src="img/img/logo.png" alt="logo"/></a>
+          <ul class="d-none d-md-flex navbar-items pr-5">
+              <li>
+                  <a href="index.html" class="navbar-links">
+                      Home
+                  </a>
+              </li>
+              <li>
+                <a href="about.html" class="navbar-links">
+                    About
+                </a>
+              </li>
+              <li>
+                  <a href="program.html" class="navbar-links">
+                      Program
+                  </a>
+              </li>
+              <li>
+                  <a href="tickets.html" class="navbar-links">
+                      Tickets
+                  </a>
+              </li>
+              <li>
+                  <a href="#" class="navbar-links">
+                      Contact
+                  </a>
+              </li>
+          </ul>
+      </nav>
+      <nav class="d-lg-none ml-2 pb-2">
+        <button class="navbar-toggler toggler-example" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1"
+        aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"><span class="dark"><i
+            class="fas fa-bars fa-1x"></i></span></button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+
+              <!-- Links -->
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="program.html">Program</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="tickets.html">Tickets</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact</a>
+                </li>
+              </ul>
+              <!-- Links -->
+          
             </div>
-        </nav>
-    <!------------Header---------------->
-        <header class="container pt-5">
-            <section class="row">
-                <article class="col-12">
-                    <h4><a href="#" class="header-title">"Life get's better with Art."</a></h4>
-                </article>
-                <article class="col-12">
-                    <h4><a href="#" class="header-main">Your museum is our museum tour 2021</a></h4>
-                </article>
-                <article class="col-12 col-lg-8 pt-4">
-                    <div class="info bg-light p-2">
-                        <p class="header-info">
-                            Join us in this journey to achieve next level of achievment. <span class="font-weight-bold">Your museum is our museum</span> provide this journey for all who lost ther soul inside this tables that still showing the world how important <span class="font-weight-bold">Art</span>,9 august share this positive vibes with artists who are from more than 20 countries in North africa 
-                        </p>
-                    </div>
-                </article>
-                <article class="col-12 pt-4">
-                    <h4 class="header-date text-muted">2021.08.09(THU) ~ 16(FRI)</h4>
-                    <h6 class="header-place text-muted pt-1 font-weight-bold">@ Tunisia , North Africa</h6>
-                </article>
-            </section>
-        </header>
+      </nav>
+  </header>
+
     <!----------------Main-------------------->
-        <main class="container-fluid mt-4">  
-        <section class="row bg-dark ml-lg-5 mr-lg-5">
+        <main class="container-fluid"> 
+          <section class="row first-section pt-5 pb-5">
+            <article class="col-12">
+                <h4><a href="#" class="header-title">"Life get's better with Art."</a></h4>
+            </article>
+            <article class="col-12">
+                <h1 class="w-50"><a href="#" class="header-main">PORT | Museum lunch second edition 2021</a></h1>
+            </article>
+            <article class="col-12 col-lg-8 pt-4">
+                <div class="info bg-light p-2">
+                    <p class="header-info">
+                      Join us in this journey to achieve next level of achievement. <span class="font-weight-bold">Port Museum</span> Provide this journey for all who lost their souls inside this tables that still showing the world how important is
+                       <span class="font-weight-bold">Art</span>,9 august share this positive vibes with artists who are from more than 20 countries in North africa. 
+                    </p>
+                </div>
+            </article>
+            <article class="col-12 pt-3">
+                <h4 class="header-date text-muted">2021.08.09(THU) ~ 16(FRI)</h4>
+                <h6 class="header-place text-muted font-weight-bold">@ Tunisia , North Africa</h6>
+            </article>
+        </section> 
+
+
+        <section class="row bg-dark ">
             <div class="col-12 pt-3">
                 <h5 class="text-center font-weight-bold text-light main-title">Main Program</h5>
                 <hr class="b-bottom">
             </div>
-        <!----------------------------------------->
-        <article class="col-12 col-md-6 col-lg-3 mb-1 ontainer">
+        <!-----------------program------------------------>
+        <section class="program ml-lg-5 mr-lg-5">
+        <article class="mb-1">
             <div class="row main-object ml-md-1 mr-md-1 pt-1">
                 <div class="col-3 col-md-12 mb-3 text-center mt-md-3">
-                    <img src="img/icons/1.png" class="mw-100 pt-3 p-md-0 object-img" alt="icon one" />
+                  <a href="#"><img src="img/icons/2.png" alt="icon" class="mt-3 icon text-dark" /></a>
                 </div>
                 <div class="col-2 pl-2 mt-4 col-md-12 object-title text-md-center">
-                    <a class="font-weight-bold">Lecture</a>
+                    <a class="font-weight-bold">Meeting</a>
                 </div>
                 <div class="col-7 col-md-12 text-md-center">
-                    <p class="object-info mt-2 text-light text-light">Listen to the speakers from various countries about the messeges of sharing and opening.</p>
+                    <p class="object-info mt-2 text-light text-light">Meet our featured speakers ,discover our museum and most rarest tables.</p>
                 </div>
             </div>
         </article>
         <!----------------------------------------->
-        <article class="col-12 col-md-6 col-lg-3 mb-1 container">
-            <div class="row main-object ml-md-1 mr-md-1 pt-1">
-                <div class="col-3 col-md-12 mb-3 text-center mt-md-3">
-                    <img src="img/icons/1.png" class="mw-100 pt-3 p-md-0 object-img" alt="icon one" />
-                </div>
-                <div class="col-2 pl-2 mt-4 col-md-12 object-title text-md-center">
-                    <a class="font-weight-bold">Lecture</a>
-                </div>
-                <div class="col-7 col-md-12 text-md-center">
-                    <p class="object-info mt-2 text-light text-light">Listen to the speakers from various countries about the messeges of sharing and opening.</p>
-                </div>
-            </div>
-        </article>
+        <article class="mb-1">
+          <div class="row main-object ml-md-1 mr-md-1 pt-1">
+              <div class="col-3 col-md-12 mb-3 text-center mt-md-3">
+                <a href="#"><img src="img/icons/1.png" alt="icon" class="mt-3 icon text-dark" /></a>
+              </div>
+              <div class="col-2 pl-2 mt-4 col-md-12 object-title text-md-center">
+                  <a class="font-weight-bold">Workshop</a>
+              </div>
+              <div class="col-7 col-md-12 text-md-center">
+                  <p class="object-info mt-2 text-light text-light">Work with our different artist in our little workshop + all tools provided by us.</p>
+              </div>
+          </div>
+      </article>
         <!------------------------------------------>
-        <article class="col-12 col-md-6 col-lg-3 mb-1 container">
-            <div class="row main-object ml-md-1 mr-md-1 pt-1">
-                <div class="col-3 col-md-12 mb-3 text-center mt-md-3">
-                    <img src="img/icons/1.png" class="mw-100 pt-3 p-md-0 object-img" alt="icon one" />
-                </div>
-                <div class="col-2 pl-2 mt-4 col-md-12 object-title text-md-center">
-                    <a class="font-weight-bold">Lecture</a>
-                </div>
-                <div class="col-7 col-md-12 text-md-center">
-                    <p class="object-info mt-2 text-light text-light">Listen to the speakers from various countries about the messeges of sharing and opening.</p>
-                </div>
-            </div>
-        </article>
+        <article class="mb-1">
+          <div class="row main-object ml-md-1 mr-md-1 pt-1">
+              <div class="col-3 col-md-12 mb-3 text-center mt-md-3">
+                <a href="#"><img src="img/icons/3.png" alt="icon" class="mt-3 icon text-dark" /></a>
+              </div>
+              <div class="col-2 pl-2 mt-4 col-md-12 object-title text-md-center">
+                  <a class="font-weight-bold">Sharing</a>
+              </div>
+              <div class="col-7 col-md-12 text-md-center">
+                  <p class="object-info mt-2 text-light text-light">Share your ideas with most of the visitors and tell us what you would like to be better</p>
+              </div>
+          </div>
+      </article>
         <!------------------------------------------>
-        <article class="col-12 col-md-6 col-lg-3 mb-1 container">
-            <div class="row main-object ml-md-1 mr-md-1 pt-1">
-                <div class="col-3 col-md-12 mb-3 text-center mt-md-3">
-                    <img src="img/icons/1.png" class="mw-100 pt-3 p-md-0 object-img" alt="icon one" />
-                </div>
-                <div class="col-2 pl-2 mt-4 col-md-12 object-title text-md-center">
-                    <a class="font-weight-bold">Lecture</a>
-                </div>
-                <div class="col-7 col-md-12 text-md-center">
-                    <p class="object-info mt-2 text-light text-light">Listen to the speakers from various countries about the messeges of sharing and opening.</p>
-                </div>
-            </div>
-        </article>
+        <article class="mb-1">
+          <div class="row main-object ml-md-1 mr-md-1 pt-1">
+              <div class="col-3 col-md-12 mb-3 text-center mt-md-3">
+                <a href="#"><img src="img/icons/4.png" alt="icon" class="mt-3 icon text-dark edit" /></a>
+              </div>
+              <div class="col-2 pl-2 mt-4 col-md-12 object-title text-md-center">
+                  <a class="font-weight-bold">Cinema</a>
+              </div>
+              <div class="col-7 col-md-12 text-md-center">
+                  <p class="object-info mt-2 text-light text-light">After this journey we provide a movie chosen by us about the tables.</p>
+              </div>
+          </div>
+      </article>
+        </section>
     <!------------------------------Button--------------------------------->
         <div class="col-12 pt-3 pb-3 d-flex d-lg-none justify-content-center">
             <button type="button" class="btn btn-danger button">Join CC Global Summit 2015</button>
@@ -142,10 +203,10 @@
             <hr class="b-bottom">
         </div>
     <!----------------------------------------Article------------------------------------------>
-    <article class="col-12 col-md-6 pt-5">
-        <div class="speaker-data float-right pl-5 p-md-3">
-            <h5 class="font-weight-bold"><a href="#" class="text-decoration-none text-dark speaker-title">Yochai Benker</a></h5>
-            <p class="speaker-short-info font-weight-bold">Berkman Professor of Entrepreseurial Legal Studies at Havard Law School</p>
+    <article class="col-12 col-md-6 pt-5 d-flex">
+        <div class="speaker-data float-right  p-md-3">
+            <h5 class="font-weight-bold"><a href="#" class="text-decoration-none text-dark speaker-title">Sonja Moonear</a></h5>
+            <p class="speaker-short-info font-weight-bold">Art teacher/university lecturer at Havard Law School.Art Director</p>
             <p class="speaker-info font-weight-bold">Bankler studies commons-based peer production and published his seminal book The Worth of Networks in 2006.</p>
         </div>
         <div class="speaker-pic">
@@ -154,8 +215,8 @@
         </div>
     </article>
     <!----------------------------------------Article------------------------------------------>
-    <article class="col-12 col-md-6 pt-5">
-        <div class="speaker-data float-right pl-5 p-md-3">
+    <article class="col-12 col-md-6 pt-5 d-flex">
+        <div class="speaker-data float-right p-md-3">
             <h5 class="font-weight-bold"><a href="#" class="text-decoration-none text-dark speaker-title">Yochai Benker</a></h5>
             <p class="speaker-short-info font-weight-bold">Berkman Professor of Entrepreseurial Legal Studies at Havard Law School</p>
             <p class="speaker-info font-weight-bold">Bankler studies commons-based peer production and published his seminal book The Worth of Networks in 2006.</p>
@@ -166,8 +227,8 @@
         </div>
     </article>
     <!----------------------------------------Article------------------------------------------>
-    <article class="col-12 col-md-6 pt-5">
-        <div class="speaker-data float-right pl-5 p-md-3">
+    <article class="col-12 col-md-6 d-none d-md-flex pt-5">
+        <div class="speaker-data float-right p-md-3">
             <h5 class="font-weight-bold"><a href="#" class="text-decoration-none text-dark speaker-title">Yochai Benker</a></h5>
             <p class="speaker-short-info font-weight-bold">Berkman Professor of Entrepreseurial Legal Studies at Havard Law School</p>
             <p class="speaker-info font-weight-bold">Bankler studies commons-based peer production and published his seminal book The Worth of Networks in 2006.</p>
@@ -178,8 +239,8 @@
         </div>
     </article>
     <!----------------------------------------Article------------------------------------------>
-    <article class="col-12 col-md-6 pt-5">
-        <div class="speaker-data float-right pl-5 p-md-3">
+    <article class="col-12 col-md-6 d-none d-md-flex pt-5">
+        <div class="speaker-data float-right p-md-3">
             <h5 class="font-weight-bold"><a href="#" class="text-decoration-none text-dark speaker-title">Yochai Benker</a></h5>
             <p class="speaker-short-info font-weight-bold">Berkman Professor of Entrepreseurial Legal Studies at Havard Law School</p>
             <p class="speaker-info font-weight-bold">Bankler studies commons-based peer production and published his seminal book The Worth of Networks in 2006.</p>
@@ -190,8 +251,8 @@
         </div>
     </article>
     <!----------------------------------------Article------------------------------------------>
-    <article class="col-12 col-md-6 pt-5">
-        <div class="speaker-data float-right pl-5 p-md-3">
+    <article class="col-12 col-md-6 d-none d-md-flex pt-5">
+        <div class="speaker-data float-right p-md-3">
             <h5 class="font-weight-bold"><a href="#" class="text-decoration-none text-dark speaker-title">Yochai Benker</a></h5>
             <p class="speaker-short-info font-weight-bold">Berkman Professor of Entrepreseurial Legal Studies at Havard Law School</p>
             <p class="speaker-info font-weight-bold">Bankler studies commons-based peer production and published his seminal book The Worth of Networks in 2006.</p>
@@ -202,8 +263,8 @@
         </div>
     </article>
     <!----------------------------------------Article------------------------------------------>
-    <article class="col-12 col-md-6 pt-5">
-        <div class="speaker-data float-right pl-5 p-md-3">
+    <article class="col-12 col-md-6 d-none d-md-flex pt-5">
+        <div class="speaker-data float-right p-md-3">
             <h5 class="font-weight-bold"><a href="#" class="text-decoration-none text-dark speaker-title">Yochai Benker</a></h5>
             <p class="speaker-short-info font-weight-bold">Berkman Professor of Entrepreseurial Legal Studies at Havard Law School</p>
             <p class="speaker-info font-weight-bold">Bankler studies commons-based peer production and published his seminal book The Worth of Networks in 2006.</p>
@@ -212,6 +273,9 @@
             <img class="b-w-pic" src="img/profile/back.jpg" alt="black-white" />
             <img class="b-w-pic profile" src="img/profile/6.png" alt="black-white" />
         </div>
+    </article>
+    <article class="mt-5 mb-3 d-flex d-md-none border more justify-content-center">
+      <a href="#">More</a>
     </article>
     </div>
 <!----------------------------------------Article------------------------------------------>
@@ -223,45 +287,33 @@
             <hr class="b-bottom">
         </div>
         <div class="col-12 d-flex justify-content-center mt-2 pb-5">
-            <a href="#" class="text-muted">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-facebook facebook" viewBox="0 0 16 16">
-                    <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
-                  </svg>
+          <a href="#" class="">
+            <i class="fas fa-shekel-sign fa-3x mr-5 partner"></i>
+          </a>
+            <a href="#" class="">
+                <i class="fab fa-aviato fa-3x mr-5 partner"></i>
             </a>
-            <a href="#" class="text-muted">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-facebook facebook" viewBox="0 0 16 16">
-                    <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
-                  </svg>
+            <a href="#" class="">
+                <i class="fab fa-android fa-3x mr-5 partner"></i>
             </a>
-            <a href="#" class="text-muted">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-facebook facebook" viewBox="0 0 16 16">
-                    <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
-                  </svg>
-            </a>
-            <a href="#" class="text-muted">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-facebook facebook" viewBox="0 0 16 16">
-                    <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
-                  </svg>
-            </a>
-            <a href="#" class="text-muted">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-facebook facebook" viewBox="0 0 16 16">
-                    <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
-                  </svg>
+            <a href="#" class="">
+                <i class="fas fa-satellite-dish fa-3x mr-5 partner"></i>
             </a>
         </div>
         </section>
     </main>
-    <footer class="container-fluid mt-4">
-        <section class="row">
-            <article class="col-12 d-flex justify-content-center mt-5">
-                <div class="footer-title p-2">
-                    <a class="text-dark">CC | Campaign</a>
+    <footer class="container-fluid mt-4 pb-4">
+            <article class="d-flex  justify-content-center mt-5 footer">
+                <div class="pt-2 p-md-0">
+                    <a href="index.html"><img class="navbar-logo ml-5" src="img/img/logo.png" alt="logo"/></a>
                 </div>
-                <div class="footer-info pl-4 mt-2">
-                    <p class="text-dark">Museum for all who lost ther sol in art here we bring you in another journey hope you all enjoy</p>
+                <div class="footer-inf pl-2 mt-1">
+                    <p class="text-dark">Port | Museum - copyright © 2018 all rights reserved
+                        Special Thanks to this website designer <a href="https://www.behance.net/adagio07">Cindy Shin.</a>
+                    </p>
+                    
                 </div>
             </article>
-        </section>
     </footer>
     <!-----------------JavaScript-------------->
     <script src="https://kit.fontawesome.com/efd248be36.js" crossorigin="anonymous"></script>

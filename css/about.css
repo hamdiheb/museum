@@ -49,7 +49,7 @@
 }
 
 .logo {
-  width: 420px;
+  width: 150px;
 }
 
 .past-info {
@@ -57,7 +57,10 @@
 }
 
 .bottom-profile {
-  background-image: linear-gradient(217deg, rgb(228, 13, 13) 1%, rgb(0, 0, 0, 0) 90%), url(../img/table/350px-PicassoGuernica.jpg);
+  background: linear-gradient(0deg, rgba(251, 58, 10, 0.65) 0%, rgba(248, 58, 11, 0.65) 102%, rgba(255, 152, 42, 0.97) 100%), url(../img/table/350px-PicassoGuernica.jpg);
+  padding: 0;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .bottom-title {
@@ -86,4 +89,9 @@
 .footer-info {
   width: 680px;
   font-family: 'Lato', sans-serif;
+}
+
+.align {
+  display: flex;
+  justify-content: center;
 }
