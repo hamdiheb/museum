@@ -57,27 +57,20 @@
 }
 
 .bottom-profile {
-  background: linear-gradient(0deg, rgba(251, 58, 10, 0.65) 0%, rgba(248, 58, 11, 0.65) 102%, rgba(255, 152, 42, 0.97) 100%), url(../img/table/350px-PicassoGuernica.jpg);
-  padding: 0;
+  height: 250px;
+  background: linear-gradient(0deg, rgba(251, 58, 10, 0.65) 0%, rgba(248, 58, 11, 0.65) 102%, rgba(255, 152, 42, 0.97) 100%), url(../img/acti/IMG_5851.jpeg);
   background-repeat: no-repeat;
   background-position: center;
+  margin-top: 20px;
 }
 
+
 .bottom-title {
-  margin-top: 50px;
   font-family: 'Lato', sans-serif;
 }
 
 .bottom-info {
   font-family: 'Lato', sans-serif;
-}
-
-.fixed {
-  margin-right: 5px;
-}
-
-.fixer {
-  margin-right: -5px;
 }
 
 .footer-title {
@@ -94,4 +87,30 @@
 .align {
   display: flex;
   justify-content: center;
+}
+
+.table-width {
+  width: 350px;
+  height: 150px;
+}
+@media screen and (min-width: 760px){
+  .reserv {
+      width: 20%;
+      height: 50px;
+  }
+
+  .bottom-profile {
+    height: 250px;
+    width: 400px;
+    background: linear-gradient(0deg, rgba(251, 58, 10, 0.65) 0%, rgba(248, 58, 11, 0.65) 102%, rgba(255, 152, 42, 0.97) 100%), url(../img/acti/IMG_5851.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 30px;
+  }
+
+  .activity {
+    display: flex;
+    justify-content: center;
+  }
+  
 }

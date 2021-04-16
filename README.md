@@ -1,19 +1,17 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Your Museum our Museum Project
+# Port | Museum
 
-> Museum Clone with program section and tickets section.
+> This project is the final capstone for the first module (HTML - CSS).
 
-This project is to check out more about Responsive design using bootstrap and how to apply mobile-first techniques, this website was created using bootstrap and good practices. I included bootstrap and good practices to build, with responsive design.
+Port museum project is a website for booking museum tickets. In this project I used HTML, Css and alot of Bootstrap to make my website more better. I v included Grid and flexbox to make the project more professional inside specific parts.
 
 Screenshots :
 
 ![screenshot](./img/screenshot/1.png)
 ![screenshot](./img/screenshot/2.png)
 ![screenshot](./img/screenshot/3.png)
-![screenshot](./img/screenshot/4.png)
-![screenshot](./img/screenshot/5.png)
-![screenshot](./img/screenshot/6.png)
+
 
 ## Built With 🔨
 
@@ -36,6 +34,9 @@ To get a local copy up and running follow these simple example steps.
 
 ## Getting Started 
 - Index.html is the main marke up that will show as the first page in the browser .
+- about.html the page that contain all information you need to know about us .
+- program.html contain the program schedule .
+- tickets.html contain tickets prices .
 - In css folder you will find the css file that contain all applicated designing on this project .
 - Img folder contain most of pictures that has been in use for this project
 
@@ -45,8 +46,9 @@ To get a local copy up and running follow these simple example steps.
 
 ### Usage
 
-- For anyone who wants to practice HTML5 and Bootstrap responsive design.
+- For anyone who wants to practice HTML5,Css and Bootstrap responsive design.
 - How to apply responsive desing using Bootstrap and good practices.
+- How to apply different design using Grid and flexbox.
 
 ## Author
 
@@ -74,6 +76,6 @@ Give a ⭐️ if you like this project!
 - Inspiration 💘
 - Microverse program ⚡
 - My standup team 🏹
-
+- <div>Special thank to designer <a href="https://www.behance.net/adagio07">Cindy Shin | GUI & Graphic Designer</a> </div>
 ## 📝 License
 This project is [MIT](./mit.md) licensed.

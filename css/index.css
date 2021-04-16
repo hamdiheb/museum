@@ -204,6 +204,10 @@
     flex-direction:row;
   }
 
+  .header-main {
+    width: 50%;
+  }
+
   .main-object {
     height: 100%;
   }
