@@ -64,7 +64,6 @@
   margin-top: 20px;
 }
 
-
 .bottom-title {
   font-family: 'Lato', sans-serif;
 }
@@ -93,10 +92,11 @@
   width: 350px;
   height: 150px;
 }
+
 @media screen and (min-width: 760px){
   .reserv {
-      width: 20%;
-      height: 50px;
+    width: 20%;
+    height: 50px;
   }
 
   .bottom-profile {
@@ -112,5 +112,4 @@
     display: flex;
     justify-content: center;
   }
-  
 }

@@ -1,7 +1,7 @@
 @font-face {
-    font-family: cocogose;
-    src: url(fonts/Cocogoose.ttf);
-  }
+  font-family: cocogose;
+  src: url(fonts/Cocogoose.ttf);
+}
 
 .tickets-step {
   font-family: 'Lato', sans-serif;
@@ -62,9 +62,9 @@
   top: 2px;
 }
 
-@media screen and (min-width: 760px){
-    .reserv {
-        width: 20%;
-        height: 50px;
-      }
+@media screen and (min-width: 760px) {
+  .reserv {
+    width: 20%;
+    height: 50px;
+  }
 }
