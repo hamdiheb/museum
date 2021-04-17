@@ -39,6 +39,7 @@
 
 .navbar-items {
   list-style: none;
+  margin-right: 110px;
 }
 
 .navbar-links {
@@ -191,6 +192,11 @@
 
 .partner:hover {
   color: #ec5242;
+}
+
+.footer-div {
+  background-color: #272a31;
+  margin-top: 150px;
 }
 
 .footer-inf {
