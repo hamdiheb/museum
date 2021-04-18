@@ -1,0 +1,116 @@
+.schedule-button,
+.schedule-button-active {
+  background-color: #ec5242;
+  width: 25%;
+  height: 60px;
+  font-family: 'Lato', sans-serif;
+  color: white;
+  font-size: 12px;
+}
+
+.schedule-button-active {
+  background-color: grey;
+}
+
+.schedule-button:hover {
+  background-color: black;
+}
+
+.schedule-date-top {
+  color: #ec5242;
+  font-family: 'Lato', sans-serif;
+  font-size: 22px;
+}
+
+.schedule-speech {
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  border: 1px solid gray;
+  background-color: white;
+  border-radius: 30px;
+}
+
+.sharing-title {
+  font-family: 'Lato', sans-serif;
+}
+
+.sharing-info {
+  font-family: 'Lato', sans-serif;
+  color: black;
+}
+
+.schedule-type {
+  width: 25px;
+  height: 25px;
+  margin-top: -5px;
+  background-color: #2785b4;
+  color: white;
+  padding: 2px;
+  border-radius: 50%;
+}
+
+.list-item {
+  list-style-type: none;
+  font-family: 'Lato', sans-serif;
+}
+
+.table {
+  background-color: #ec5242;
+  padding: 4px;
+}
+
+.rainbow {
+  background-color: #cf8ec5;
+}
+
+.love {
+  background-color: #77aec6;
+  padding: 5px;
+}
+
+.plan-time,
+.plan-title {
+  font-family: 'Lato', sans-serif;
+}
+
+.plan-item {
+  border: 1px solid #77aec6;
+  background-color: #a0aeb4;
+  border-radius: 2px;
+}
+
+.plan-item-data {
+  margin-top: 14px;
+}
+
+.plan-icon {
+  margin-top: 1px;
+}
+
+.plan-bio,
+.plan-info {
+  font-family: 'Lato', sans-serif;
+}
+
+.plan-bio-main,
+.plan-title {
+  color: #ec5242;
+}
+
+.plan-subject {
+  background-color: #bebec7;
+  margin-top: 4px;
+  border-radius: 2px;
+}
+
+.update {
+  margin-right: 1px;
+}
+
+.fix {
+  margin-right: -5px;
+}
+
+.margin {
+  margin-top: 150px;
+}

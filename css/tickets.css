@@ -1,0 +1,70 @@
+@font-face {
+  font-family: cocogose;
+  src: url(fonts/Cocogoose.ttf);
+}
+
+.tickets-step {
+  font-family: 'Lato', sans-serif;
+  border: 1px solid white;
+  border-radius: 20px;
+}
+
+.step {
+  color: #ec5242;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 30%);
+}
+
+.grid-title {
+  background-color: #d3d3d3;
+  border: 1px solid #ec5242;
+  height: 50px;
+}
+
+.grid-item {
+  border: 1px solid #ec5242;
+  height: 60px;
+}
+
+.ticket-title {
+  font-family: 'Lato', sans-serif;
+  font-size: 13px;
+}
+
+.radio {
+  position: relative;
+  top: 1px;
+}
+
+.reserv {
+  background-color: #ec5242;
+  width: 50%;
+  height: 50px;
+  border-radius: 1px;
+  align-items: center;
+}
+
+.second-grid-item {
+  border: 1px solid #ec5242;
+  height: 40px;
+}
+
+.second-ticket-title {
+  font-family: 'Lato', sans-serif;
+  font-size: 13px;
+}
+
+.send-radio {
+  position: relative;
+  top: 2px;
+}
+
+@media screen and (min-width: 760px) {
+  .reserv {
+    width: 20%;
+    height: 50px;
+  }
+}

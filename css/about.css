@@ -1,0 +1,115 @@
+@font-face {
+  font-family: cocogose;
+  src: url(fonts/Cocogoose.ttf);
+}
+
+.home-icon {
+  width: 20px;
+  height: 30px;
+  color: #343a40;
+}
+
+.home-icon:hover {
+  color: tomato;
+}
+
+.direction-place {
+  color: #343a40;
+  font-family: 'Lato', sans-serif;
+}
+
+.direction-place:hover {
+  color: #ec5242;
+}
+
+.about-header {
+  width: 450px;
+}
+
+.about-header a {
+  color: #ec5242;
+  text-decoration: none;
+  font-family: 'cocogose', sans-serif;
+  font-size: 40px;
+}
+
+.about-header a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+.about-info {
+  border: 3px solid white;
+  font-family: 'Lato', sans-serif;
+}
+
+.about-email {
+  width: 550px;
+  font-family: 'Lato', sans-serif;
+}
+
+.logo {
+  width: 150px;
+}
+
+.past-info {
+  font-family: 'Lato', sans-serif;
+}
+
+.bottom-profile {
+  height: 250px;
+  background: linear-gradient(0deg, rgba(251, 58, 10, 0.65) 0%, rgba(248, 58, 11, 0.65) 102%, rgba(255, 152, 42, 0.97) 100%), url(../img/acti/IMG_5851.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 20px;
+}
+
+.bottom-title {
+  font-family: 'Lato', sans-serif;
+}
+
+.bottom-info {
+  font-family: 'Lato', sans-serif;
+}
+
+.footer-title {
+  width: 130px;
+  border: 1px solid #ec5242;
+  font-family: 'Lato', sans-serif;
+}
+
+.footer-info {
+  width: 680px;
+  font-family: 'Lato', sans-serif;
+}
+
+.align {
+  display: flex;
+  justify-content: center;
+}
+
+.table-width {
+  width: 350px;
+  height: 150px;
+}
+
+@media screen and (min-width: 760px) {
+  .reserv {
+    width: 20%;
+    height: 50px;
+  }
+
+  .bottom-profile {
+    height: 250px;
+    width: 400px;
+    background: linear-gradient(0deg, rgba(251, 58, 10, 0.65) 0%, rgba(248, 58, 11, 0.65) 102%, rgba(255, 152, 42, 0.97) 100%), url(../img/acti/IMG_5851.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 30px;
+  }
+
+  .activity {
+    display: flex;
+    justify-content: center;
+  }
+}
